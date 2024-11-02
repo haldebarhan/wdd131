@@ -1,0 +1,159 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap");
+
+:root {
+  --primary-color: #0074cc;
+  --secondary-color: #138d75;
+  --accent1-color: #ff8c00;
+  --accent2-color: #8b4513;
+
+  --heading-font: "Montserrat", serif;
+  --paragraph-font: "Montserrat", serif;
+
+  --nav-background-color: var(--accent1-color);
+  --nav-link-color: #ffffff;
+  --nav-hover-link-color: var(--primary-color);
+  --nav-hover-background-color: var(--secondary-color);
+}
+* {
+  box-sizing: border-box;
+}
+
+header div {
+  width: 100%;
+  background-color: #0074cc;
+  color: #ffffff;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 600;
+  font-size: larger;
+}
+nav {
+  background-color: var(--nav-background-color);
+  font-size: 1.2rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+nav a {
+  display: block;
+  color: var(--nav-link-color);
+  text-decoration: none;
+  padding: 1rem;
+}
+
+nav a:link,
+nav a:visited {
+  color: var(--nav-link-color);
+}
+
+nav a:hover {
+  color: var(--nav-link-color);
+  background-color: var(--nav-hover-background-color);
+}
+
+.card {
+  border: 1px solid black;
+  border-radius: 20px;
+  margin: 20px;
+  font-size: large;
+}
+
+.description p {
+  padding: 30px 20px 0;
+  font-size: larger;
+  font-weight: 200;
+}
+
+main {
+  display: grid;
+  column-gap: 50px;
+  grid-template-columns: auto 400px;
+  justify-content: space-around;
+}
+
+.banner {
+  width: 100%;
+  background-color: var(--primary-color);
+  color: var(--nav-link-color);
+  border-radius: 20px 20px 0px 0px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+}
+
+.banner h2 {
+  margin-top: 10px;
+}
+
+.description {
+  display: flex;
+  justify-content: space-around;
+}
+
+#picture {
+  height: 200px;
+  padding: 20px;
+}
+
+hr {
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.country {
+  display: flex;
+  justify-content: center;
+}
+
+.country-desc {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+.country-desc img {
+  height: 130px;
+  border: 1px solid black;
+}
+
+.country-desc p {
+  font-size: large;
+  font-weight: 200;
+  padding-left: 20px;
+  padding-top: 20px;
+}
+
+.flag {
+  font-style: italic;
+}
+
+.flex {
+    margin-top: 20%;
+}
+
+h4 {
+    font-size: larger;
+    margin-bottom: 10px;
+}
+
+footer {
+    width: 100%;
+    background-color:var(--primary-color);
+    height: 100px;
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#lastModified {
+    padding-left: 50px;
+    color: yellow;
+}
+
+.name {
+    color: yellow;
+}
