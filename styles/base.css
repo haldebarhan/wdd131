@@ -16,6 +16,11 @@
   box-sizing: border-box;
 }
 
+body {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
 header div {
   width: 100%;
   background-color: var(--primary-color);
@@ -130,29 +135,29 @@ hr {
 }
 
 .flex {
-    margin-top: 20%;
+  margin-top: 20%;
 }
 
 h4 {
-    font-size: larger;
-    margin-bottom: 10px;
+  font-size: larger;
+  margin-bottom: 10px;
 }
 
 footer {
-    max-width: 100%;
-    background-color:var(--primary-color);
-    height: 100px;
-    color: #ffffff;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  max-width: 100%;
+  background-color: var(--primary-color);
+  height: 100px;
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 #lastModified {
-    padding-left: 50px;
-    color: yellow;
+  padding-left: 50px;
+  color: yellow;
 }
 
 .name {
-    color: yellow;
+  color: yellow;
 }
